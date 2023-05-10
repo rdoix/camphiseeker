@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-VERSION = '1.2.8'
+VERSION = '1.0.0'
 
 R = '\033[31m'  # red
 G = '\033[32m'  # green
