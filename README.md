@@ -66,7 +66,7 @@ chmod +x install.sh
 ```bash
 git clone https://github.com/rdoix/camphiseeker.git
 cd camphiseeker/
-python3 seeker.py
+python3 camphiseeker.py
 ````
 
 In order to run in tunnel mode, install ngrok by running this command in the terminal:
@@ -79,9 +79,9 @@ ngrok http 8080
 ## Usage
 CamPhiseeker manual
 ```bash
-$ python3 seeker.py -h
+$ python3 camphiseeker.py -h
 
-usage: seeker.py [-h] [-k KML] [-p PORT] [-u] [-v]
+usage: camphiseeker.py [-h] [-k KML] [-p PORT] [-u] [-v]
 
 options:
   -h, --help            show this help message and exit
@@ -94,7 +94,7 @@ options:
   ### Example 1
   Step 1 : Running in first terminal
   ```bash
-  $ python3 seeker.py
+  $ python3 camphiseeker.py
   ````
   
    Step 2 : Open the second teriminal to start a tunnel service with ngrok
@@ -105,7 +105,7 @@ options:
   ### Example 2 (with optional)
   Step 1 : Running in first terminal with Ouput KML File for Google Earth dan custom port
   ```bash
-$ python3 seeker.py -k <filename> -p 1337
+$ python3 camphiseeker.py -k <filename> -p 1337
   ````
   
    Step 2 : Open the second teriminal to start a tunnel service with ngrok
