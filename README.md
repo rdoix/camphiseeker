@@ -22,7 +22,7 @@ CamPhiseeker host a fake website can collect information without any permission,
 * Local Port
 * ISP Information
 
-CamPhiseeker host a fake website which ask for "Location" and "Camera" Permission and if the target "Allows" itu, we can Get:
+CamPhiseeker host a fake website which ask for "Location" and "Camera" Permission and if the target "Allows" it, we can Get:
 * Longitude
 * Latitude
 * Accuracy
@@ -60,12 +60,6 @@ git clone https://github.com/rdoix/camphiseeker.git
 cd camphiseeker/
 chmod +x install.sh
 ./install.sh
-```
-
-### BlackArch Linux
-
-```bash
-sudo pacman -S seeker
 ```
 
 ### OSX
@@ -119,4 +113,4 @@ $ python3 seeker.py -k <filename> -p 1337
  ./ngrok http 1337
   ````
   
-  For optional regarding tunnel, you can use Cloudflare Tunnel, SSH tunnel, or directly on VPS
+  For alaternative ngrok tunnel, you can use Cloudflared Tunnel, SSH tunnel, etc. or directly on VPS
