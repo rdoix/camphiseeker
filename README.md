@@ -110,7 +110,7 @@ $ python3 camphiseeker.py -k <filename> -p 1337
   
    Step 2 : Open the second teriminal to start a tunnel service with ngrok
   ```bash
- ./ngrok http 1337
+$ ./ngrok http 1337
   ````
   
   For alaternative ngrok tunnel, you can use Cloudflared Tunnel, SSH tunnel, etc. or directly on VPS
